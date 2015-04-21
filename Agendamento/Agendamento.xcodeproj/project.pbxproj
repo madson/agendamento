@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F365C8BE1AE6B2FA003B4CDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C8BD1AE6B2FA003B4CDD /* main.m */; };
+		F365C8C11AE6B2FA003B4CDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C8C01AE6B2FA003B4CDD /* AppDelegate.m */; };
+		F365C8C71AE6B2FA003B4CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F365C8C51AE6B2FA003B4CDD /* Main.storyboard */; };
+		F365C8C91AE6B2FA003B4CDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F365C8C81AE6B2FA003B4CDD /* Images.xcassets */; };
+		F365C8CC1AE6B2FA003B4CDD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F365C8CA1AE6B2FA003B4CDD /* LaunchScreen.xib */; };
+		F365C8D81AE6B2FA003B4CDD /* AgendamentoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C8D71AE6B2FA003B4CDD /* AgendamentoTests.m */; };
+		F365C8E41AE6B38D003B4CDD /* TransferenciasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C8E31AE6B38D003B4CDD /* TransferenciasViewController.m */; };
+		F365C8E81AE6B3D8003B4CDD /* Transferencia.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C8E71AE6B3D8003B4CDD /* Transferencia.m */; };
+		F365C8E91AE6B3D8003B4CDD /* Transferencia.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C8E71AE6B3D8003B4CDD /* Transferencia.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F365C8D21AE6B2FA003B4CDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F365C8B01AE6B2FA003B4CDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F365C8B71AE6B2FA003B4CDD;
+			remoteInfo = Agendamento;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F365C8B81AE6B2FA003B4CDD /* Agendamento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agendamento.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F365C8BC1AE6B2FA003B4CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F365C8BD1AE6B2FA003B4CDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F365C8BF1AE6B2FA003B4CDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F365C8C01AE6B2FA003B4CDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F365C8C61AE6B2FA003B4CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F365C8C81AE6B2FA003B4CDD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F365C8CB1AE6B2FA003B4CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F365C8D11AE6B2FA003B4CDD /* AgendamentoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgendamentoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F365C8D61AE6B2FA003B4CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F365C8D71AE6B2FA003B4CDD /* AgendamentoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgendamentoTests.m; sourceTree = "<group>"; };
+		F365C8E21AE6B38D003B4CDD /* TransferenciasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransferenciasViewController.h; path = ViewControllers/TransferenciasViewController.h; sourceTree = "<group>"; };
+		F365C8E31AE6B38D003B4CDD /* TransferenciasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransferenciasViewController.m; path = ViewControllers/TransferenciasViewController.m; sourceTree = "<group>"; };
+		F365C8E61AE6B3D8003B4CDD /* Transferencia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transferencia.h; path = Models/Transferencia.h; sourceTree = "<group>"; };
+		F365C8E71AE6B3D8003B4CDD /* Transferencia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Transferencia.m; path = Models/Transferencia.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F365C8B51AE6B2FA003B4CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F365C8CE1AE6B2FA003B4CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F365C8AF1AE6B2FA003B4CDD = {
+			isa = PBXGroup;
+			children = (
+				F365C8BA1AE6B2FA003B4CDD /* Agendamento */,
+				F365C8D41AE6B2FA003B4CDD /* AgendamentoTests */,
+				F365C8B91AE6B2FA003B4CDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F365C8B91AE6B2FA003B4CDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F365C8B81AE6B2FA003B4CDD /* Agendamento.app */,
+				F365C8D11AE6B2FA003B4CDD /* AgendamentoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F365C8BA1AE6B2FA003B4CDD /* Agendamento */ = {
+			isa = PBXGroup;
+			children = (
+				F365C8E51AE6B39F003B4CDD /* Models */,
+				F365C8E11AE6B376003B4CDD /* ViewControllers */,
+				F365C8BF1AE6B2FA003B4CDD /* AppDelegate.h */,
+				F365C8C01AE6B2FA003B4CDD /* AppDelegate.m */,
+				F365C8C51AE6B2FA003B4CDD /* Main.storyboard */,
+				F365C8C81AE6B2FA003B4CDD /* Images.xcassets */,
+				F365C8CA1AE6B2FA003B4CDD /* LaunchScreen.xib */,
+				F365C8BB1AE6B2FA003B4CDD /* Supporting Files */,
+			);
+			path = Agendamento;
+			sourceTree = "<group>";
+		};
+		F365C8BB1AE6B2FA003B4CDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F365C8BC1AE6B2FA003B4CDD /* Info.plist */,
+				F365C8BD1AE6B2FA003B4CDD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F365C8D41AE6B2FA003B4CDD /* AgendamentoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F365C8D71AE6B2FA003B4CDD /* AgendamentoTests.m */,
+				F365C8D51AE6B2FA003B4CDD /* Supporting Files */,
+			);
+			path = AgendamentoTests;
+			sourceTree = "<group>";
+		};
+		F365C8D51AE6B2FA003B4CDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F365C8D61AE6B2FA003B4CDD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F365C8E11AE6B376003B4CDD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F365C8E21AE6B38D003B4CDD /* TransferenciasViewController.h */,
+				F365C8E31AE6B38D003B4CDD /* TransferenciasViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F365C8E51AE6B39F003B4CDD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F365C8E61AE6B3D8003B4CDD /* Transferencia.h */,
+				F365C8E71AE6B3D8003B4CDD /* Transferencia.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F365C8B71AE6B2FA003B4CDD /* Agendamento */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F365C8DB1AE6B2FA003B4CDD /* Build configuration list for PBXNativeTarget "Agendamento" */;
+			buildPhases = (
+				F365C8B41AE6B2FA003B4CDD /* Sources */,
+				F365C8B51AE6B2FA003B4CDD /* Frameworks */,
+				F365C8B61AE6B2FA003B4CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Agendamento;
+			productName = Agendamento;
+			productReference = F365C8B81AE6B2FA003B4CDD /* Agendamento.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F365C8D01AE6B2FA003B4CDD /* AgendamentoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F365C8DE1AE6B2FA003B4CDD /* Build configuration list for PBXNativeTarget "AgendamentoTests" */;
+			buildPhases = (
+				F365C8CD1AE6B2FA003B4CDD /* Sources */,
+				F365C8CE1AE6B2FA003B4CDD /* Frameworks */,
+				F365C8CF1AE6B2FA003B4CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F365C8D31AE6B2FA003B4CDD /* PBXTargetDependency */,
+			);
+			name = AgendamentoTests;
+			productName = AgendamentoTests;
+			productReference = F365C8D11AE6B2FA003B4CDD /* AgendamentoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F365C8B01AE6B2FA003B4CDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Madson;
+				TargetAttributes = {
+					F365C8B71AE6B2FA003B4CDD = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					F365C8D01AE6B2FA003B4CDD = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = F365C8B71AE6B2FA003B4CDD;
+					};
+				};
+			};
+			buildConfigurationList = F365C8B31AE6B2FA003B4CDD /* Build configuration list for PBXProject "Agendamento" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F365C8AF1AE6B2FA003B4CDD;
+			productRefGroup = F365C8B91AE6B2FA003B4CDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F365C8B71AE6B2FA003B4CDD /* Agendamento */,
+				F365C8D01AE6B2FA003B4CDD /* AgendamentoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F365C8B61AE6B2FA003B4CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F365C8C71AE6B2FA003B4CDD /* Main.storyboard in Resources */,
+				F365C8CC1AE6B2FA003B4CDD /* LaunchScreen.xib in Resources */,
+				F365C8C91AE6B2FA003B4CDD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F365C8CF1AE6B2FA003B4CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F365C8B41AE6B2FA003B4CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F365C8C11AE6B2FA003B4CDD /* AppDelegate.m in Sources */,
+				F365C8E41AE6B38D003B4CDD /* TransferenciasViewController.m in Sources */,
+				F365C8BE1AE6B2FA003B4CDD /* main.m in Sources */,
+				F365C8E81AE6B3D8003B4CDD /* Transferencia.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F365C8CD1AE6B2FA003B4CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F365C8D81AE6B2FA003B4CDD /* AgendamentoTests.m in Sources */,
+				F365C8E91AE6B3D8003B4CDD /* Transferencia.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F365C8D31AE6B2FA003B4CDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F365C8B71AE6B2FA003B4CDD /* Agendamento */;
+			targetProxy = F365C8D21AE6B2FA003B4CDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F365C8C51AE6B2FA003B4CDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F365C8C61AE6B2FA003B4CDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F365C8CA1AE6B2FA003B4CDD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F365C8CB1AE6B2FA003B4CDD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F365C8D91AE6B2FA003B4CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F365C8DA1AE6B2FA003B4CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F365C8DC1AE6B2FA003B4CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Agendamento/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F365C8DD1AE6B2FA003B4CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Agendamento/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F365C8DF1AE6B2FA003B4CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AgendamentoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agendamento.app/Agendamento";
+			};
+			name = Debug;
+		};
+		F365C8E01AE6B2FA003B4CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AgendamentoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agendamento.app/Agendamento";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F365C8B31AE6B2FA003B4CDD /* Build configuration list for PBXProject "Agendamento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F365C8D91AE6B2FA003B4CDD /* Debug */,
+				F365C8DA1AE6B2FA003B4CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F365C8DB1AE6B2FA003B4CDD /* Build configuration list for PBXNativeTarget "Agendamento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F365C8DC1AE6B2FA003B4CDD /* Debug */,
+				F365C8DD1AE6B2FA003B4CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F365C8DE1AE6B2FA003B4CDD /* Build configuration list for PBXNativeTarget "AgendamentoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F365C8DF1AE6B2FA003B4CDD /* Debug */,
+				F365C8E01AE6B2FA003B4CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F365C8B01AE6B2FA003B4CDD /* Project object */;
+}
