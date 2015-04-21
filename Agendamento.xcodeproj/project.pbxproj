@@ -16,6 +16,17 @@
 		F365C8E41AE6B38D003B4CDD /* TransferenciasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C8E31AE6B38D003B4CDD /* TransferenciasViewController.m */; };
 		F365C8E81AE6B3D8003B4CDD /* Transferencia.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C8E71AE6B3D8003B4CDD /* Transferencia.m */; };
 		F365C8E91AE6B3D8003B4CDD /* Transferencia.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C8E71AE6B3D8003B4CDD /* Transferencia.m */; };
+		F365C8EB1AE6BB40003B4CDD /* TransferenciaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C8EA1AE6BB40003B4CDD /* TransferenciaTests.m */; };
+		F365C8F21AE6C371003B4CDD /* Calculadora.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C8F11AE6C371003B4CDD /* Calculadora.m */; };
+		F365C8F31AE6C371003B4CDD /* Calculadora.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C8F11AE6C371003B4CDD /* Calculadora.m */; };
+		F365C8F61AE6C388003B4CDD /* TaxaTipoA.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C8F51AE6C388003B4CDD /* TaxaTipoA.m */; };
+		F365C8F71AE6C388003B4CDD /* TaxaTipoA.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C8F51AE6C388003B4CDD /* TaxaTipoA.m */; };
+		F365C8FA1AE6C393003B4CDD /* TaxaTipoB.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C8F91AE6C393003B4CDD /* TaxaTipoB.m */; };
+		F365C8FB1AE6C393003B4CDD /* TaxaTipoB.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C8F91AE6C393003B4CDD /* TaxaTipoB.m */; };
+		F365C90B1AE6CEE7003B4CDD /* TaxaTipoC.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C90A1AE6CEE7003B4CDD /* TaxaTipoC.m */; };
+		F365C90C1AE6CEE7003B4CDD /* TaxaTipoC.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C90A1AE6CEE7003B4CDD /* TaxaTipoC.m */; };
+		F365C9111AE6D93D003B4CDD /* DataHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C9101AE6D93D003B4CDD /* DataHelpers.m */; };
+		F365C9121AE6D93D003B4CDD /* DataHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C9101AE6D93D003B4CDD /* DataHelpers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,18 @@
 		F365C8E31AE6B38D003B4CDD /* TransferenciasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransferenciasViewController.m; path = ViewControllers/TransferenciasViewController.m; sourceTree = "<group>"; };
 		F365C8E61AE6B3D8003B4CDD /* Transferencia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transferencia.h; path = Models/Transferencia.h; sourceTree = "<group>"; };
 		F365C8E71AE6B3D8003B4CDD /* Transferencia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Transferencia.m; path = Models/Transferencia.m; sourceTree = "<group>"; };
+		F365C8EA1AE6BB40003B4CDD /* TransferenciaTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferenciaTests.m; sourceTree = "<group>"; };
+		F365C8F01AE6C371003B4CDD /* Calculadora.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Calculadora.h; path = Models/Calculadora.h; sourceTree = "<group>"; };
+		F365C8F11AE6C371003B4CDD /* Calculadora.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Calculadora.m; path = Models/Calculadora.m; sourceTree = "<group>"; };
+		F365C8F41AE6C388003B4CDD /* TaxaTipoA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaxaTipoA.h; path = Models/TaxaTipoA.h; sourceTree = "<group>"; };
+		F365C8F51AE6C388003B4CDD /* TaxaTipoA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaxaTipoA.m; path = Models/TaxaTipoA.m; sourceTree = "<group>"; };
+		F365C8F81AE6C393003B4CDD /* TaxaTipoB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaxaTipoB.h; path = Models/TaxaTipoB.h; sourceTree = "<group>"; };
+		F365C8F91AE6C393003B4CDD /* TaxaTipoB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaxaTipoB.m; path = Models/TaxaTipoB.m; sourceTree = "<group>"; };
+		F365C9091AE6CEE7003B4CDD /* TaxaTipoC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaxaTipoC.h; path = Models/TaxaTipoC.h; sourceTree = "<group>"; };
+		F365C90A1AE6CEE7003B4CDD /* TaxaTipoC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaxaTipoC.m; path = Models/TaxaTipoC.m; sourceTree = "<group>"; };
+		F365C90D1AE6CF03003B4CDD /* ProtocoloTaxa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProtocoloTaxa.h; path = Models/ProtocoloTaxa.h; sourceTree = "<group>"; };
+		F365C90F1AE6D93D003B4CDD /* DataHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataHelpers.h; path = Helpers/DataHelpers.h; sourceTree = "<group>"; };
+		F365C9101AE6D93D003B4CDD /* DataHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataHelpers.m; path = Helpers/DataHelpers.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +108,7 @@
 		F365C8BA1AE6B2FA003B4CDD /* Agendamento */ = {
 			isa = PBXGroup;
 			children = (
+				F365C90E1AE6D92C003B4CDD /* Helpers */,
 				F365C8E51AE6B39F003B4CDD /* Models */,
 				F365C8E11AE6B376003B4CDD /* ViewControllers */,
 				F365C8BF1AE6B2FA003B4CDD /* AppDelegate.h */,
@@ -110,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				F365C8D71AE6B2FA003B4CDD /* AgendamentoTests.m */,
+				F365C8EA1AE6BB40003B4CDD /* TransferenciaTests.m */,
 				F365C8D51AE6B2FA003B4CDD /* Supporting Files */,
 			);
 			path = AgendamentoTests;
@@ -137,8 +162,26 @@
 			children = (
 				F365C8E61AE6B3D8003B4CDD /* Transferencia.h */,
 				F365C8E71AE6B3D8003B4CDD /* Transferencia.m */,
+				F365C8F01AE6C371003B4CDD /* Calculadora.h */,
+				F365C8F11AE6C371003B4CDD /* Calculadora.m */,
+				F365C90D1AE6CF03003B4CDD /* ProtocoloTaxa.h */,
+				F365C8F41AE6C388003B4CDD /* TaxaTipoA.h */,
+				F365C8F51AE6C388003B4CDD /* TaxaTipoA.m */,
+				F365C8F81AE6C393003B4CDD /* TaxaTipoB.h */,
+				F365C8F91AE6C393003B4CDD /* TaxaTipoB.m */,
+				F365C9091AE6CEE7003B4CDD /* TaxaTipoC.h */,
+				F365C90A1AE6CEE7003B4CDD /* TaxaTipoC.m */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		F365C90E1AE6D92C003B4CDD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F365C90F1AE6D93D003B4CDD /* DataHelpers.h */,
+				F365C9101AE6D93D003B4CDD /* DataHelpers.m */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,9 +285,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F365C8C11AE6B2FA003B4CDD /* AppDelegate.m in Sources */,
+				F365C8F21AE6C371003B4CDD /* Calculadora.m in Sources */,
+				F365C9111AE6D93D003B4CDD /* DataHelpers.m in Sources */,
 				F365C8E41AE6B38D003B4CDD /* TransferenciasViewController.m in Sources */,
+				F365C8FA1AE6C393003B4CDD /* TaxaTipoB.m in Sources */,
 				F365C8BE1AE6B2FA003B4CDD /* main.m in Sources */,
 				F365C8E81AE6B3D8003B4CDD /* Transferencia.m in Sources */,
+				F365C8F61AE6C388003B4CDD /* TaxaTipoA.m in Sources */,
+				F365C90B1AE6CEE7003B4CDD /* TaxaTipoC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,8 +300,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F365C8EB1AE6BB40003B4CDD /* TransferenciaTests.m in Sources */,
+				F365C8F71AE6C388003B4CDD /* TaxaTipoA.m in Sources */,
 				F365C8D81AE6B2FA003B4CDD /* AgendamentoTests.m in Sources */,
 				F365C8E91AE6B3D8003B4CDD /* Transferencia.m in Sources */,
+				F365C8FB1AE6C393003B4CDD /* TaxaTipoB.m in Sources */,
+				F365C9121AE6D93D003B4CDD /* DataHelpers.m in Sources */,
+				F365C90C1AE6CEE7003B4CDD /* TaxaTipoC.m in Sources */,
+				F365C8F31AE6C371003B4CDD /* Calculadora.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +494,7 @@
 				F365C8DD1AE6B2FA003B4CDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F365C8DE1AE6B2FA003B4CDD /* Build configuration list for PBXNativeTarget "AgendamentoTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +503,7 @@
 				F365C8E01AE6B2FA003B4CDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
