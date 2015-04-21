@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3235CE11AE7098A000AF279 /* GerenciadorTransferencias.m in Sources */ = {isa = PBXBuildFile; fileRef = F3235CE01AE7098A000AF279 /* GerenciadorTransferencias.m */; };
+		F3235CE21AE7098A000AF279 /* GerenciadorTransferencias.m in Sources */ = {isa = PBXBuildFile; fileRef = F3235CE01AE7098A000AF279 /* GerenciadorTransferencias.m */; };
+		F3235CE61AE70EED000AF279 /* CellTransferencia.m in Sources */ = {isa = PBXBuildFile; fileRef = F3235CE51AE70EED000AF279 /* CellTransferencia.m */; };
+		F3235CEC1AE71641000AF279 /* FormatterHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F3235CEB1AE71641000AF279 /* FormatterHelper.m */; };
 		F365C8BE1AE6B2FA003B4CDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C8BD1AE6B2FA003B4CDD /* main.m */; };
 		F365C8C11AE6B2FA003B4CDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C8C01AE6B2FA003B4CDD /* AppDelegate.m */; };
 		F365C8C71AE6B2FA003B4CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F365C8C51AE6B2FA003B4CDD /* Main.storyboard */; };
@@ -40,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F3235CDF1AE7098A000AF279 /* GerenciadorTransferencias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GerenciadorTransferencias.h; path = Models/GerenciadorTransferencias.h; sourceTree = "<group>"; };
+		F3235CE01AE7098A000AF279 /* GerenciadorTransferencias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GerenciadorTransferencias.m; path = Models/GerenciadorTransferencias.m; sourceTree = "<group>"; };
+		F3235CE41AE70EED000AF279 /* CellTransferencia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CellTransferencia.h; path = Cells/CellTransferencia.h; sourceTree = "<group>"; };
+		F3235CE51AE70EED000AF279 /* CellTransferencia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CellTransferencia.m; path = Cells/CellTransferencia.m; sourceTree = "<group>"; };
+		F3235CEA1AE71641000AF279 /* FormatterHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FormatterHelper.h; path = Helpers/FormatterHelper.h; sourceTree = "<group>"; };
+		F3235CEB1AE71641000AF279 /* FormatterHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FormatterHelper.m; path = Helpers/FormatterHelper.m; sourceTree = "<group>"; };
 		F365C8B81AE6B2FA003B4CDD /* Agendamento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agendamento.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F365C8BC1AE6B2FA003B4CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F365C8BD1AE6B2FA003B4CDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -87,6 +97,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F3235CE31AE70ED6000AF279 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F3235CE41AE70EED000AF279 /* CellTransferencia.h */,
+				F3235CE51AE70EED000AF279 /* CellTransferencia.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		F365C8AF1AE6B2FA003B4CDD = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +127,7 @@
 		F365C8BA1AE6B2FA003B4CDD /* Agendamento */ = {
 			isa = PBXGroup;
 			children = (
+				F3235CE31AE70ED6000AF279 /* Cells */,
 				F365C90E1AE6D92C003B4CDD /* Helpers */,
 				F365C8E51AE6B39F003B4CDD /* Models */,
 				F365C8E11AE6B376003B4CDD /* ViewControllers */,
@@ -171,6 +191,8 @@
 				F365C8F91AE6C393003B4CDD /* TaxaTipoB.m */,
 				F365C9091AE6CEE7003B4CDD /* TaxaTipoC.h */,
 				F365C90A1AE6CEE7003B4CDD /* TaxaTipoC.m */,
+				F3235CDF1AE7098A000AF279 /* GerenciadorTransferencias.h */,
+				F3235CE01AE7098A000AF279 /* GerenciadorTransferencias.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -178,6 +200,8 @@
 		F365C90E1AE6D92C003B4CDD /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				F3235CEA1AE71641000AF279 /* FormatterHelper.h */,
+				F3235CEB1AE71641000AF279 /* FormatterHelper.m */,
 				F365C90F1AE6D93D003B4CDD /* DataHelpers.h */,
 				F365C9101AE6D93D003B4CDD /* DataHelpers.m */,
 			);
@@ -286,11 +310,14 @@
 			files = (
 				F365C8C11AE6B2FA003B4CDD /* AppDelegate.m in Sources */,
 				F365C8F21AE6C371003B4CDD /* Calculadora.m in Sources */,
+				F3235CE61AE70EED000AF279 /* CellTransferencia.m in Sources */,
 				F365C9111AE6D93D003B4CDD /* DataHelpers.m in Sources */,
 				F365C8E41AE6B38D003B4CDD /* TransferenciasViewController.m in Sources */,
 				F365C8FA1AE6C393003B4CDD /* TaxaTipoB.m in Sources */,
 				F365C8BE1AE6B2FA003B4CDD /* main.m in Sources */,
 				F365C8E81AE6B3D8003B4CDD /* Transferencia.m in Sources */,
+				F3235CEC1AE71641000AF279 /* FormatterHelper.m in Sources */,
+				F3235CE11AE7098A000AF279 /* GerenciadorTransferencias.m in Sources */,
 				F365C8F61AE6C388003B4CDD /* TaxaTipoA.m in Sources */,
 				F365C90B1AE6CEE7003B4CDD /* TaxaTipoC.m in Sources */,
 			);
@@ -308,6 +335,7 @@
 				F365C9121AE6D93D003B4CDD /* DataHelpers.m in Sources */,
 				F365C90C1AE6CEE7003B4CDD /* TaxaTipoC.m in Sources */,
 				F365C8F31AE6C371003B4CDD /* Calculadora.m in Sources */,
+				F3235CE21AE7098A000AF279 /* GerenciadorTransferencias.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
