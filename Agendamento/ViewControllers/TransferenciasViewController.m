@@ -10,21 +10,19 @@
 #import "GerenciadorTransferencias.h"
 #import "Transferencia.h"
 #import "CellTransferencia.h"
+#import "DetalheViewController.h"
+
+NSString * const IDSegueDetalhe = @"segueDetalhe";
+NSString * const IDSegueAdicionar = @"segueAdicionar";
 
 @implementation TransferenciasViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
-    
-    Transferencia *t1 = Transferencia.new;
-    t1.origem = @"01234-5";
-    t1.destino = @"05678-5";
-    t1.valor = @(250);
-    t1.tipo = TipoA;
-    [t1 agendarPara:2];
-    
-    [GerenciadorTransferencias adicionaTransferencia:t1];
+#pragma mark - View controller life cycle
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self.tableView reloadData];
 }
 
 #pragma mark - Table view data source
@@ -81,14 +79,21 @@
 }
 */
 
-/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:IDSegueDetalhe]) {
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        
+        DetalheViewController *destino = segue.destinationViewController;
+        destino.transferencia = [GerenciadorTransferencias transferenciaPorIndice:indexPath.row];
+    }
+    else if ([segue.identifier isEqualToString:IDSegueAdicionar]) {
+        DetalheViewController *destino = segue.destinationViewController;
+        destino.adicionando = YES;
+    }
 }
-*/
 
 @end

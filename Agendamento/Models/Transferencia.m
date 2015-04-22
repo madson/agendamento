@@ -18,6 +18,9 @@
     
     if (self) {
         _dataCadastro = [NSDate date];
+        self.dataAgendada = [NSDate date];
+        self.tipo = TipoA;
+        self.valor = @(0);
     }
     
     return self;

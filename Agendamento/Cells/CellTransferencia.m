@@ -14,10 +14,10 @@
 
 - (void)setTransferencia:(Transferencia *)t1
 {
-    self.origem.text = t1.origem;
-    self.destino.text = t1.destino;
-    self.dataAgendada.text = [[FormatterHelper dateFormatter] stringFromDate:t1.dataAgendada];
-    self.valor.text = t1.valor.description;
+    _origem.text = t1.origem;
+    _destino.text = t1.destino;
+    _dataAgendada.text = [[FormatterHelper dateFormatter] stringFromDate:t1.dataAgendada];
+    _valor.text = [[FormatterHelper currencyFormatter] stringFromNumber:t1.valor];
 }
 
 @end

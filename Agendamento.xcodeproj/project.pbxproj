@@ -11,6 +11,7 @@
 		F3235CE21AE7098A000AF279 /* GerenciadorTransferencias.m in Sources */ = {isa = PBXBuildFile; fileRef = F3235CE01AE7098A000AF279 /* GerenciadorTransferencias.m */; };
 		F3235CE61AE70EED000AF279 /* CellTransferencia.m in Sources */ = {isa = PBXBuildFile; fileRef = F3235CE51AE70EED000AF279 /* CellTransferencia.m */; };
 		F3235CEC1AE71641000AF279 /* FormatterHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F3235CEB1AE71641000AF279 /* FormatterHelper.m */; };
+		F3235CEF1AE71A56000AF279 /* DetalheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3235CEE1AE71A56000AF279 /* DetalheViewController.m */; };
 		F365C8BE1AE6B2FA003B4CDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C8BD1AE6B2FA003B4CDD /* main.m */; };
 		F365C8C11AE6B2FA003B4CDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F365C8C01AE6B2FA003B4CDD /* AppDelegate.m */; };
 		F365C8C71AE6B2FA003B4CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F365C8C51AE6B2FA003B4CDD /* Main.storyboard */; };
@@ -50,6 +51,8 @@
 		F3235CE51AE70EED000AF279 /* CellTransferencia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CellTransferencia.m; path = Cells/CellTransferencia.m; sourceTree = "<group>"; };
 		F3235CEA1AE71641000AF279 /* FormatterHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FormatterHelper.h; path = Helpers/FormatterHelper.h; sourceTree = "<group>"; };
 		F3235CEB1AE71641000AF279 /* FormatterHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FormatterHelper.m; path = Helpers/FormatterHelper.m; sourceTree = "<group>"; };
+		F3235CED1AE71A56000AF279 /* DetalheViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetalheViewController.h; path = ViewControllers/DetalheViewController.h; sourceTree = "<group>"; };
+		F3235CEE1AE71A56000AF279 /* DetalheViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetalheViewController.m; path = ViewControllers/DetalheViewController.m; sourceTree = "<group>"; };
 		F365C8B81AE6B2FA003B4CDD /* Agendamento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agendamento.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F365C8BC1AE6B2FA003B4CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F365C8BD1AE6B2FA003B4CDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -173,6 +176,8 @@
 			children = (
 				F365C8E21AE6B38D003B4CDD /* TransferenciasViewController.h */,
 				F365C8E31AE6B38D003B4CDD /* TransferenciasViewController.m */,
+				F3235CED1AE71A56000AF279 /* DetalheViewController.h */,
+				F3235CEE1AE71A56000AF279 /* DetalheViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -317,6 +322,7 @@
 				F365C8BE1AE6B2FA003B4CDD /* main.m in Sources */,
 				F365C8E81AE6B3D8003B4CDD /* Transferencia.m in Sources */,
 				F3235CEC1AE71641000AF279 /* FormatterHelper.m in Sources */,
+				F3235CEF1AE71A56000AF279 /* DetalheViewController.m in Sources */,
 				F3235CE11AE7098A000AF279 /* GerenciadorTransferencias.m in Sources */,
 				F365C8F61AE6C388003B4CDD /* TaxaTipoA.m in Sources */,
 				F365C90B1AE6CEE7003B4CDD /* TaxaTipoC.m in Sources */,
